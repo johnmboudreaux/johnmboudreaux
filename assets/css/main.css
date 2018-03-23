@@ -103,7 +103,7 @@ header.major h2 {
 
 /* Button */
 
-#section07 a span {
+#header-chevron a span {
 	position: absolute;
 	top: 13%;
 	left: 50%;
@@ -119,18 +119,18 @@ header.major h2 {
 	opacity: 0;
 	box-sizing: border-box;
 }
-#section07 a span:nth-of-type(1) {
+#header-chevron a span:nth-of-type(1) {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 }
 
-#section07 a span:nth-of-type(2) {
+#header-chevron a span:nth-of-type(2) {
 	top: 14%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
-#section07 a span:nth-of-type(3) {
+#header-chevron a span:nth-of-type(3) {
 	top: 15%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
@@ -159,7 +159,7 @@ header.major h2 {
 }
 
 
-#section08 a span {
+#resume-chevron a span {
 	position: absolute;
 	top: 54%;
 	left: 50%;
@@ -175,18 +175,18 @@ header.major h2 {
 	opacity: 0;
 	box-sizing: border-box;
 }
-#section08 a span:nth-of-type(1) {
+#resume-chevron a span:nth-of-type(1) {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 }
 
-#section08 a span:nth-of-type(2) {
+#resume-chevron a span:nth-of-type(2) {
 	top: 54.7%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
-#section08 a span:nth-of-type(3) {
+#resume-chevron a span:nth-of-type(3) {
 	top: 55.4%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
@@ -697,6 +697,11 @@ ul.social li a.fa-google-plus:hover {
 /* Tablet */
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+
+	#header-chevron,
+	#resume-chevron {
+		display: none;
+	}
 
 	body {
 		width: 100%;
