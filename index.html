@@ -10,6 +10,7 @@
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
+			<div id="main-wrapper">
 			<!-- Header -->
 				<div id="header">
 					<section id="banner">
@@ -19,15 +20,16 @@
 						</header>
 					</section>
 				</div>
+				<section id="section07" class="demo">
+					<a href="#portfolio-section"><span></span><span></span><span></span></a>
+				</section>
 
 		<!-- Main -->
-			<div id="main-wrapper">
 				<div class="container">
 					<div class="row">
 						<div class="12u">
-
 							<!-- Portfolio -->
-								<section>
+								<section id="portfolio-section">
 									<header class="major">
 										<h2>My Portfolio</h2>
 									</header>
@@ -84,7 +86,7 @@
 										</div>
 										<div class="4u 12u(mobile)">
 											<section class="box">
-												<a href="#" class="image featured"><img src="images/get-yours.png" alt="" /></a>
+												<a href="https://get-yours.herokuapp.com/" class="image featured"><img src="images/get-yours.png" alt="" /></a>
 												<header>
 													<h3>Get Yours</h3>
 												</header>
@@ -107,15 +109,19 @@
 											</section>
 										</div>
 									</div>
+
+								</section>
+								<section id="section08" class="demo">
+									<a href="#resume-section"><span></span><span></span><span></span></a>
 								</section>
 
 						</div>
 					</div>
+
+					<!-- Resume -->
 					<div class="row">
 						<div class="12u">
-
-						<!-- Resume -->
-							<section>
+							<section id="resume-section">
 								<header class="major">
 									<h2>My Resume</h2>
 								</header>
@@ -127,6 +133,9 @@
 							</section>
 						</div>
 					</div>
+					<section id="back-to-top" class="demo">
+						<a class="button alt" href="#banner">BACK TO TOP</a>
+					</section>
 				</div>
 			</div>
 
@@ -173,7 +182,9 @@
 					</div>
 				</section>
 			</div>
-	</div>
+		</div>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
