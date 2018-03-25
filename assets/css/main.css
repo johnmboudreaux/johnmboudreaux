@@ -105,7 +105,7 @@ header.major h2 {
 
 #header-chevron a span {
 	position: absolute;
-	top: 14%;
+	top: 12.5%;
 	left: 50%;
 	width: 35px;
 	height: 35px;
@@ -125,13 +125,13 @@ header.major h2 {
 }
 
 #header-chevron a span:nth-of-type(2) {
-	top: 14.5%;
+	top: 13.5%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
 #header-chevron a span:nth-of-type(3) {
-	top: 15.5%;
+	top: 14.5%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
 }
@@ -160,7 +160,7 @@ header.major h2 {
 
 #resume-chevron a span {
 	position: absolute;
-	top: 53.8%;
+	top: 54.5%;
 	left: 50%;
 	width: 30px;
 	height: 30px;
@@ -180,13 +180,13 @@ header.major h2 {
 }
 
 #resume-chevron a span:nth-of-type(2) {
-	top: 54.6%;
+	top: 55.4%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
 #resume-chevron a span:nth-of-type(3) {
-	top: 55.5%;
+	top: 56.3%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
 }
@@ -588,6 +588,10 @@ ul.social li a.fa-google-plus:hover {
 	.box.post header > p {
 		margin-top: 1.25em;
 		font-size: 1.25em;
+	}
+
+	.box p {
+		height: 250px;
 		overflow: scroll;
 	}
 
