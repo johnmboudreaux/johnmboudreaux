@@ -764,8 +764,8 @@ ul.social li a.fa-google-plus:hover {
 
 /* Banner */
 
-	#banner {
-		/*padding: 6em 0;*/
+	#banner header h2 {
+		
 	}
 
 }
@@ -936,10 +936,6 @@ ul.social li a.fa-google-plus:hover {
 
 /* Header */
 
-	#header {
-		/*text-align: center;*/
-	}
-
 	#header h1 {
 		color: #252122;
 		font-weight: 900;
@@ -952,6 +948,16 @@ ul.social li a.fa-google-plus:hover {
 	#banner {
 		margin: 0 !important;
 		padding: 6em 0;
+	}
+
+	#banner {
+		background: #CCE8F4 url("../../images/smaller-moons.JPG");
+		/*background-position: center center;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 100%;
+		text-align: center;
 	}
 
 	#banner header {
