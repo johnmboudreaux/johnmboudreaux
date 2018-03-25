@@ -167,9 +167,17 @@ header.major h2 {
 	}
 }
 
+#rersume-chevron {
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
 #resume-chevron a span {
 	position: absolute;
-	top: 54.5%;
+	top: 100%;
 	left: 50%;
 	width: 30px;
 	height: 30px;
@@ -189,13 +197,13 @@ header.major h2 {
 }
 
 #resume-chevron a span:nth-of-type(2) {
-	top: 55.4%;
+	top: 102%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
 #resume-chevron a span:nth-of-type(3) {
-	top: 56.3%;
+	top: 104%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
 }
@@ -603,7 +611,7 @@ ul.social li a.fa-google-plus:hover {
 
 	.box p {
 		height: 250px;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 
 /* Button */
