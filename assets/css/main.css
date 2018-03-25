@@ -103,9 +103,17 @@ header.major h2 {
 
 /* Button */
 
+#header-chevron {
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+
 #header-chevron a span {
 	position: absolute;
-	top: 12.5%;
+	top: 0;
 	left: 50%;
 	width: 35px;
 	height: 35px;
@@ -119,19 +127,20 @@ header.major h2 {
 	opacity: 0;
 	box-sizing: border-box;
 }
+
 #header-chevron a span:nth-of-type(1) {
 	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 }
 
 #header-chevron a span:nth-of-type(2) {
-	top: 13.5%;
+	top: 25%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
 #header-chevron a span:nth-of-type(3) {
-	top: 14.5%;
+	top: 50%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
 }
@@ -451,6 +460,7 @@ ul.social li a.fa-google-plus:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
+	position:relative;
 	text-align: center;
 }
 
@@ -520,6 +530,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #portfolio-section {
+	position: relative;
 	margin-bottom: 60px;
 }
 
