@@ -764,8 +764,13 @@ ul.social li a.fa-google-plus:hover {
 
 /* Banner */
 
-	#banner header h2 {
-
+	#banner {
+		background: #CCE8F4 url("../../images/mid-size-moons.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 100%;
+		text-align: center;
 	}
 
 }
@@ -952,7 +957,6 @@ ul.social li a.fa-google-plus:hover {
 
 	#banner {
 		background: #CCE8F4 url("../../images/smaller-moons.jpg");
-		/*background-position: center center;*/
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 100%;
