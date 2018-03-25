@@ -161,7 +161,7 @@ header.major h2 {
 
 #resume-chevron a span {
 	position: absolute;
-	top: 53.6%;
+	top: 53.8%;
 	left: 50%;
 	width: 30px;
 	height: 30px;
@@ -181,7 +181,7 @@ header.major h2 {
 }
 
 #resume-chevron a span:nth-of-type(2) {
-	top: 54.5%;
+	top: 54.6%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
