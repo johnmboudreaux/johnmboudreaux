@@ -134,13 +134,13 @@ header.major h2 {
 }
 
 #header-chevron a span:nth-of-type(2) {
-	top: 25%;
+	top: 20%;
 	-webkit-animation-delay: .15s;
 	animation-delay: .15s;
 }
 
 #header-chevron a span:nth-of-type(3) {
-	top: 50%;
+	top: 40%;
 	-webkit-animation-delay: .3s;
 	animation-delay: .3s;
 }
