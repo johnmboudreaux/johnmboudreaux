@@ -23,7 +23,6 @@ body {
 	color: #5d5d5d;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
 	color: #252122;
 	font-weight: 700;
@@ -369,7 +368,7 @@ ul.social li a.fa-google-plus {
 
 ul.social li a.fa-google-plus:hover {
 	background: #ea3723;
-}``
+}
 
 .contact li {
 	margin-right: 20px;
