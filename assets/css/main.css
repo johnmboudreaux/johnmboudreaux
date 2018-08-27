@@ -60,7 +60,7 @@ p, ul, ol, dl {
 /* Section/Article */
 
 section {
-	margin-bottom: 2.5em;
+	/* margin-bottom: 2.5em; */
 }
 
 section > :last-child, section:last-child {
@@ -167,7 +167,9 @@ header.major h2 {
 }
 
 #back-to-top {
-	margin: 45px 0 0 37%;
+	display: flex;
+	justify-content: center;
+	margin: 4em 0 1em 0;
 }
 
 input[type="button"],
@@ -475,8 +477,10 @@ ul.social li a.fa-google-plus:hover {
 	position: relative;
 }
 
-#resume-section {
-
+.contact-info > header {
+	display: flex;
+	justify-content: center;
+	margin: 0;
 }
 
 /* Desktop */
@@ -609,7 +613,9 @@ ul.social li a.fa-google-plus:hover {
 	}
 
 	#footer-wrapper header {
-		margin: 0 0 3em 0;
+		margin-bottom: 1em;
+		display: flex;
+		justify-content: center;
 	}
 
 	#footer-wrapper header h2 {
@@ -701,7 +707,7 @@ ul.social li a.fa-google-plus:hover {
 	}
 
 	#footer-wrapper header {
-		margin: 0 0 1.5em 0;
+		/* margin: 0 0 1.5em 0; */
 	}
 
 	#footer-wrapper header h2 {
@@ -747,10 +753,20 @@ ul.social li a.fa-google-plus:hover {
 		font-size: 1.25em;
 	}
 
+	#contact-info {
+		margin-top: 3em;
+	}
+
+	#contact-info header {
+		display: flex;
+		justify-content: center;
+		margin: 1em;
+	}
+
 /* Section/Article */
 
 	section {
-		margin: 0 0 1.5em 0 !important;
+		margin: 0 0 1.5em 0;
 	}
 
 	header {
@@ -773,6 +789,11 @@ ul.social li a.fa-google-plus:hover {
 		margin: -40px 0 40px -30px;
 	}
 
+	.box footer {
+		display: flex;
+		justify-content: center;
+	}
+
 /* Button */
 
 	#header-chevron,
@@ -784,9 +805,9 @@ ul.social li a.fa-google-plus:hover {
 	input[type="submit"],
 	input[type="reset"],
 	.button {
-		position: relative;
+		/* position: relative; */
 		padding: 0.65em 0 0.65em 0 !important;
-		width: 100%;
+		width: 15em;
 		text-align: center;
 		font-size: 1.25em;
 		margin: 0.25em 0 0.25em 0;
