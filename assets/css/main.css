@@ -187,7 +187,7 @@ button,
 	color: #fff !important;
 	font-weight: 700;
 	outline: 0;
-	margin-left: 45px;
+	/*margin-left: 45px;*/
 	-moz-transition: background-color .25s ease-in-out;
 	-webkit-transition: background-color .25s ease-in-out;
 	-ms-transition: background-color .25s ease-in-out;
@@ -477,7 +477,7 @@ ul.social li a.fa-google-plus:hover {
 	position: relative;
 }
 
-.contact-info > header {
+#contact-info > header {
 	display: flex;
 	justify-content: center;
 	margin: 0;
@@ -757,7 +757,7 @@ ul.social li a.fa-google-plus:hover {
 		margin-top: 3em;
 	}
 
-	#contact-info header {
+	#contact-info > header {
 		display: flex;
 		justify-content: center;
 		margin: 1em;
@@ -769,9 +769,7 @@ ul.social li a.fa-google-plus:hover {
 		margin: 0 0 1.5em 0;
 	}
 
-	header {
-		margin: 0 0 1em 0;
-	}
+
 
 	footer {
 		margin: 2em 0 0 0;
@@ -787,6 +785,10 @@ ul.social li a.fa-google-plus:hover {
 		left: 15px;
 		top: 15px;
 		margin: -40px 0 40px -30px;
+	}
+
+	.box header {
+		text-align: center;
 	}
 
 	.box footer {
