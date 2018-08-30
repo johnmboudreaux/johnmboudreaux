@@ -187,7 +187,6 @@ button,
 	color: #fff !important;
 	font-weight: 700;
 	outline: 0;
-	/*margin-left: 45px;*/
 	-moz-transition: background-color .25s ease-in-out;
 	-webkit-transition: background-color .25s ease-in-out;
 	-ms-transition: background-color .25s ease-in-out;
@@ -516,7 +515,9 @@ ul.social li a.fa-google-plus:hover {
 	}
 
 	footer {
-		margin: 2.25em 0 0 0;
+		display: flex;
+		justify-content: center;
+		/*margin: 2.25em 0 0 0;*/
 	}
 
 /* Box */
@@ -807,7 +808,6 @@ ul.social li a.fa-google-plus:hover {
 	input[type="submit"],
 	input[type="reset"],
 	.button {
-		/* position: relative; */
 		padding: 0.65em 0 0.65em 0 !important;
 		width: 15em;
 		text-align: center;
