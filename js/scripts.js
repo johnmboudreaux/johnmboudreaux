@@ -17,26 +17,18 @@ $(function() {
 
   $('.menu-btn').on('click', toggleMenu);
 
+  let menuShowing;
  function toggleMenu() {
-   console.log('tm');
-   
-   let menuShowing;
-  //  console.log(menuShowing);
-  debugger
     if (!menuShowing) {
       $('.menu-btn').addClass('close');
-      $('.menu').css("opacity", "0.9");
+      $('.menu').css("opacity", "0.8");
 
-      console.log('menushowung1', menuShowing);
       menuShowing = true;
-      console.log('menushowung1', menuShowing);
-      
     } else if(menuShowing) {
       $('.menu-btn').removeClass('close');
       $('.menu').css("opacity", "0");
 
       menuShowing = false;
-      console.log("menushowung2", menuShowing);
     }
   }
 

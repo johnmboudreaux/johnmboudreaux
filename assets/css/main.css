@@ -23,8 +23,8 @@
 .menu-btn {
   cursor: pointer;
   position: absolute;
-  top: 2rem;
-  right: 3rem;
+  top: 1rem;
+  left: 1rem;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   transition: all .8s ease-out;
   z-index: 3;
@@ -56,15 +56,16 @@
 
 .menu {
 	background: #f1f1f1;
+	color: #d52349;
   font-weight: bold;
   font-size: 1em;
   position: absolute;
-  top: 6em;
-  right: .5em;
-  margin-right: 2.4em;
+  top: 2.8em;
+  left: .5em;
+  margin-left: .7em;
   opacity: 0;
   text-align: center;
-  width: 75%;
+  width: 45%;
   z-index: 1000000;
   transition: opacity 0.5s;
   -webkit-transition: opacity 0.5s;
@@ -73,15 +74,15 @@
 .menu ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
   list-style-image: none;
+	list-style-type: none;
 }
 
 .menu li {
   background: none;
   display: block;
   padding: 15px 0 15px 0;
-  background-color: #c9c094;
+  background-color: #fff;
   border-bottom: 1px solid grey;
 }
 
